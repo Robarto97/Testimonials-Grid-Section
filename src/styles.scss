@@ -98,8 +98,8 @@ main {
     margin: 3rem auto;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
-      "purple purple gray white-long"
-      "white-short black black white-long";
+      "daniel daniel jonathan kira"
+      "jeanette patrick patrick kira";
     .card {
       padding: 2rem;
       justify-content: space-between;
@@ -108,19 +108,19 @@ main {
       }
     }
     .card:first-child {
-      grid-area: purple;
+      grid-area: daniel;
     }
     .card:nth-child(2) {
-      grid-area: gray;
+      grid-area: jonathan;
     }
     .card:nth-child(3) {
-      grid-area: white-short;
+      grid-area: jeanette;
     }
     .card:nth-child(4) {
-      grid-area: black;
+      grid-area: patrick;
     }
     .card:nth-child(5) {
-      grid-area: white-long;
+      grid-area: kira;
     }
   }
 }
